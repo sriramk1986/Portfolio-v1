@@ -27,6 +27,14 @@ h5 {
   font-size: 1rem;
 }
 
+hr {
+  border: 0.6px solid #007bff;
+  width: 97%;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
 .color-span {
   color: #007bff;
 }
@@ -103,14 +111,13 @@ ul.navbar-nav a:hover {
 
 .project-title {
   font-weight: 800;
-  font-size: 1.1rem;
-  margin-bottom: 5%;
+  font-size: 1.3rem;
 }
 
-.project-skill {
-  border: 1px solid #007bff;
-  border-radius: 5%;
-  padding: 0.4rem 0.8rem;
+.project-subtitle {
+  font-size: 1rem;
+  color: grey;
+  margin: 0;
 }
 
 /* Contacts Section */
