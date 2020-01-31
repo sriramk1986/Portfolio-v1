@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 section {
@@ -16,8 +17,9 @@ section {
 }
 
 .title-heading h1 {
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 1.5;
+  font-weight: 900;
 }
 
 .title-heading h2 {
@@ -34,3 +36,5 @@ section {
   text-align: left;
   width: 80%;
 }
+
+/* Work Experience Section */
