@@ -3,6 +3,9 @@ body {
   text-align: center;
 }
 
+section {
+  margin-bottom: 15%;
+}
 /* Title Section */
 .navbar {
   padding: 0 0 4.5rem;
@@ -13,11 +16,21 @@ body {
 }
 
 .title-heading h1 {
-  font-size: 60px;
+  font-size: 80px;
   line-height: 1.5;
 }
 
 .title-heading h2 {
   font-size: 25px;
   line-height: 1.5;
+}
+
+/* About Section */
+.section-left {
+  text-align: right;
+}
+
+.section-right {
+  text-align: left;
+  width: 80%;
 }
