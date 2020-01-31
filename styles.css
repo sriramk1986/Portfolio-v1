@@ -2,11 +2,26 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
 }
 
 section {
   margin-bottom: 15%;
 }
+
+.section-headings {
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: 100;
+  /* margin-top: 1px; */
+}
+
+h3,
+h4,
+h5 {
+  font-size: 1rem;
+}
+
 /* Title Section */
 .navbar {
   padding: 0 0 4.5rem;
@@ -22,9 +37,10 @@ section {
   font-weight: 900;
 }
 
-.title-heading h2 {
-  font-size: 25px;
-  line-height: 1.5;
+.sub-heading {
+  color: #007bff;
+  font-size: 1.5rem;
+  line-height: 2;
 }
 
 /* About Section */
@@ -37,4 +53,54 @@ section {
   width: 80%;
 }
 
+/* Skills Section */
+.skill-headings {
+  font-weight: 500;
+}
+
 /* Work Experience Section */
+.work-year {
+  font-size: 0.95rem;
+}
+
+.work-name {
+  font-weight: 800;
+}
+
+.work-position {
+  font-size: 0.9rem;
+}
+
+/* Projects Section */
+#projects {
+  margin-bottom: 5%;
+}
+
+.project {
+  margin-bottom: 10%;
+}
+.project-image {
+  width: 97%;
+  margin-bottom: 5%;
+}
+
+.project-title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+}
+
+/* Contacts Section */
+#contact {
+  margin-bottom: 5%;
+}
+
+.links {
+  margin: 0px;
+  padding: 0px;
+}
+
+.link {
+  margin: 0% 1%;
+  text-decoration: none;
+}
