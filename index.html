@@ -32,12 +32,16 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ef1317a17f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="title">
       <div class="container-fluid">
         <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-color">
           <button
             class="navbar-toggler"
             type="button"
@@ -50,8 +54,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+            <ul class="navbar-nav ml-auto mr-3">
+              <li class="nav-item">
                 <a class="nav-link" href="#title"
                   >HOME <span class="sr-only">(current)</span></a
                 >
@@ -91,11 +95,16 @@
         </div>
         <div class="col-lg-8">
           <p class="section-right">
-            Hi there! I'm an ex-entrepreneur who co-founded a venture in the
-            education sector helping students ace competitive exams such as
-            GMAT, GRE and CAT. I'm now aspiring to be a software engineer post a
-            2-month bootcamp at Le Wagon - ranked the #1 bootcamp in the
-            world.<br />
+            Hi there! I'm an ex-entrepreneur who
+            <span class="color-span"
+              >co-founded a venture in the education sector</span
+            >
+            helping students ace competitive exams such as GMAT, GRE and CAT.
+            I'm now aspiring to be a software engineer post a 2-month coding
+            bootcamp at <span class="color-span">Le Wagon</span> - ranked the #1
+            bootcamp in the world. As part of the bootcamp, I learnt and built
+            projects using Ruby, Rails and Javascript. Post the bootcamp, I have
+            learnt Python, React JS and a bit of Golang.<br />
             <br />
             I have a MBA in Finance and have passed all 3 levels of the
             Chartered Financial Analyst(CFA) program. Additionally, I have 99th
@@ -103,9 +112,12 @@
             <br />
             <br />
             In my spare time, I love to read. I am also fond of trivia and have
-            won multiple quizzing competitions at various levels. Check out my
-            TV appearances <a href="https://youtu.be/in-kOYcr0_I">here</a> and
-            here.
+            won multiple quizzing competitions at various levels. Check them out
+            <a href="https://youtu.be/in-kOYcr0_I">here</a> and
+            <a
+              href="https://www.business-standard.com/article/current-affairs/bs-quiz-western-region-sebi-team-wins-western-region-finals-115020700909_1.html"
+              >here</a
+            >.
           </p>
         </div>
       </div>
@@ -213,6 +225,7 @@
         <div class="col-lg-8">
           <div class="project section-right">
             <h3 class="project-title">Travva</h3>
+            <h5>Ruby on Rails, Javascript, Ajax, Figma</h5>
             <div
               id="carouselExampleControls"
               class="carousel slide"
@@ -271,6 +284,11 @@
               app along with a chrome extension. Presented the web app on Demo
               Day (29th November, 2019) to 100+ attendees.
             </p>
+            <div>
+              <span class="project-skill">Ruby on Rails</span>
+              <span class="project-skill">Javascript</span>
+              <span class="project-skill">Ajax</span>
+            </div>
           </div>
           <div class="project section-right">
             <h3 class="project-title">Fitpass</h3>
@@ -385,22 +403,23 @@
 
     <section id="contact">
       <div class="row">
-        <div class="col-3">
-          © Sriram Krishnan
-        </div>
-        <div class="col-7 links">
-          <div class="ml-2 text-right">
-            <a class="link" href="https://github.com/sriramk1986">GITHUB</a>
-            <a class="link" href="https://www.linkedin.com/in/sriramk86/"
-              >LINKEDIN</a
-            >
-            <a class="link" href="https://twitter.com/ksriram_1986">TWITTER</a>
-            <a class="link" href="https://www.facebook.com/sriram.krishnan"
-              >FACEBOOK</a
-            >
+        <div class="col-lg-12 links">
+          <div class="copyright">
+            © Sriram Krishnan
           </div>
+          <a class="link" href="https://github.com/sriramk1986"
+            ><i class="fab fa-github"></i>
+          </a>
+          <a class="link" href="https://www.linkedin.com/in/sriramk86/"
+            ><i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="link" href="https://twitter.com/ksriram_1986"
+            ><i class="fab fa-twitter"></i>
+          </a>
+          <a class="link" href="https://www.facebook.com/sriram.krishnan"
+            ><i class="fab fa-facebook-f"></i>
+          </a>
         </div>
-        <div class="col-2"></div>
       </div>
     </section>
   </body>
